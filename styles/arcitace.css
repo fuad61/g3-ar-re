@@ -2,7 +2,15 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
-
+.btn-primary{
+    border-radius: 8px;
+    background: #ff900e;
+    padding: 20px 25px;
+    color:white;
+    font-size: 2.25rem;
+    cursor:pointer ;
+    border: 0;
+}
 header{
     background-color:rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -46,4 +54,24 @@ nav li a{
 }
 .banner-description{
     color: #727272 ;
+}
+.ban-img{
+    width: 100%;
+    margin-top: 20px;
+}
+/*responsiv*/
+@media screen and (max-width:576) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:576px) and (max-width:960){
+    nav{
+        flex-direction: column;
+        padding: 50px;
+}
+
 }
